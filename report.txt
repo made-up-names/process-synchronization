@@ -1,0 +1,37 @@
+For N=10
+
+Normal merge sort without processes
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+
+Merge sort using fork
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+
+
+Merge sort using threads
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+
+
+for N=10000
+Normal merge sort without processes
+
+real	0m0.013s
+user	0m0.009s
+sys	0m0.004s
+
+Merge sort using fork
+
+real	0m0.624s
+user	0m1.166s
+sys	0m0.942s
+
+Merge sort using threads
+
+real	0m0.356s
+user	0m0.080s
+sys	0m0.714s
